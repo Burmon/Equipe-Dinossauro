@@ -1,0 +1,57 @@
+.diferenciais {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.diferenciais__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.diferenciais__item {
+   
+  
+
+
+    box-sizing: border-box;
+
+    background-repeat: no-repeat;
+    background-position: top 1.25rem left .6rem;
+
+    padding: 1rem 3rem 3rem 5rem;
+}
+
+.diferenciais__item--tempo{
+    
+    background-image: url(../imagens/relogio.svg);
+}
+
+.diferenciais__item--foco{
+    background-image: url(../imagens/trofeu.svg);
+}
+
+.diferenciais__item--especialistas{
+    background-image: url(../imagens/especialista.svg);
+}
+
+
+.item__titulo {
+    color: #1DBF39;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+
+    margin-bottom: 1.5rem;
+}
+
+.item__texto {
+    line-height: normal;
+    color: #1DBF39;
+}
+
+@media screen and (min-width:1024px){
+    .diferenciais__lista{
+        justify-content: space-around;
+    }
+}

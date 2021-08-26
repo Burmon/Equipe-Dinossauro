@@ -1,0 +1,36 @@
+.destaques{
+    background-color: #1DBF39;
+    padding-bottom: 4rem;
+}
+
+.destaques__titulo{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 4rem;
+    font-family: 'verdana';
+    text-transform: uppercase;
+    text-align: center;
+
+    padding-top: 5rem;
+    margin-bottom: 7rem;
+}
+
+@media (max-width: 600px){
+
+   
+    .destaques__titulo{
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 2rem;
+        font-family: 'verdana';
+        text-transform: uppercase;
+        text-align: center;
+    
+        padding-top: 5rem;
+        margin-bottom: 7rem;
+    }
+    
+}
+
+
+

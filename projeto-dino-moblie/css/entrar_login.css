@@ -1,0 +1,104 @@
+main{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #111;
+}
+
+.login{
+    text-align: center;
+    width: 350px;
+    box-sizing: border-box;
+    padding: 40px;
+    background: #FFFFFF;
+}
+
+.login h2{
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.login .input_group{
+    position: relative;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.login .input_group input{
+    height: 50px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid #000000;
+}
+
+.login .input_group span{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    padding: 0;
+    transition: 0.5s;
+    pointer-events: none;
+    background: #fff;
+    text-transform: uppercase;
+
+}
+
+.login .input_group input:focus ~ span,
+.login .input_group input:valid ~ span{
+    top: -15%;
+    left: 9%;
+    font-size: 1rem;
+    padding: 2px 4px;
+   
+    background: #1DBF39;
+    color: #fff;
+}
+
+.login .input_group input[type="submit"]{
+    background: #000;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .5s;
+
+    
+}
+
+
+.login .input_group input[type="submit"]:hover{
+    background: #1DBF39;
+  
+}
+
+
+section a{
+    position: absolute;
+    color: #1DBF39;
+    background: none;
+    display: block; 
+}
+
+section a:hover{
+    background: #1DBF39;
+    color: #FFFFFF;
+}
+
+.inscrevase{
+    display: block;
+    text-align: right;
+    margin-top: 1.5rem;
+
+
+}

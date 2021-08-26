@@ -1,0 +1,85 @@
+.chamada  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #FFFFFF;
+    text-align: center;
+    
+    background-color: #000000;
+
+    padding-top: 12.25rem;
+    padding-bottom: 2.5rem;
+}
+
+.chamada__titulo {
+    color: #1DBF39;
+    font-family: 'verdana';
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 10%;
+    margin-bottom: 1.5rem;
+}
+
+.chamada__texto {
+    font-size: 1.25rem;
+    line-height: normal;
+    margin: 0 auto 2.5rem;
+    text-shadow: 1px 1px #000000 ;
+}
+
+.chamada__botao{
+    width: 100%;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+   
+    
+    
+}
+
+
+@media (max-width: 768px){
+    .chamada{
+        background: url('../imagens/mulher_2.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        
+    }
+    .chamada__texto{
+        max-width: 600px;
+    }
+}
+
+
+@media screen and (min-width:1024px){
+    .chamada{
+        background-image: url(../imagens/choque.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+        padding-top: 8.25rem;
+        padding-bottom: 15%;
+    }
+
+    .chamada__titulo{
+
+        font-size: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    .chamada__botao{
+        background-color: rgba(255, 255, 255, .15);  
+        backdrop-filter: blur(5px);
+        transition: background .4s;
+    }
+
+    .chamada__botao:hover{
+        background-color: #1DBF39;
+        border: 1px solid #1DBF39;
+        
+    }
+   
+}

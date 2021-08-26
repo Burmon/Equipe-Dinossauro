@@ -1,0 +1,143 @@
+.planos {
+    background-color: #1DBF39;
+    
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.planos__titulo {
+    color: #000000;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: 'verdana';
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-bottom: 1.30rem;
+    padding-bottom: 1rem;
+}
+
+.planos__cartoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cartao {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #1DBF39;
+
+    width: 100%;
+    max-width: 300px;
+
+    margin-bottom: 2rem;
+
+    border-radius: 5px;
+    box-shadow: 0 2px 10px 2px #333333;
+}
+
+.cartao__titulo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+
+    padding: .75rem 0;
+
+    margin-bottom: .5rem;
+  
+    
+    border-bottom: 1px solid #1DBF39;
+}
+
+.cartao__conteudo {
+    padding: 0 15%;
+}
+
+.cartao__preco {
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.cartao__texto {
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 28px;
+}
+
+.cartao__botao {
+  
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #000000;
+
+
+    width: 100%;
+
+    align-self: center;
+
+    padding: .40rem 2rem;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .planos{
+        background: url(../imagens/jiu_preto.jpg);
+    }
+
+    .planos__titulo{
+        font-size: 3rem;
+        color: #1DBF39;
+    }
+    .planos__cartoes {  
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+       
+    }
+
+    .cartao {
+        max-width: 300px;
+        background-color: rgba(255, 255, 255, .15);  
+        backdrop-filter: blur(5px);
+        transition: all   .4s;
+
+    }
+
+    .cartao:hover{
+        transform: scale(1.05);
+        background-color: #1DBF39;
+    }
+
+    
+
+    .cartao__texto{
+        color: #000000 ;
+        
+    }
+
+    .cartao__botao{
+        transition:all .4s;
+    }
+    .cartao__botao:hover{
+        
+        border: 1px solid #1DBF39;
+        background-color: #000000;
+
+        color: #1DBF39;
+    }
+}

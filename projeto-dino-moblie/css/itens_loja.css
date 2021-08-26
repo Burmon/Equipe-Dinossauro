@@ -1,0 +1,249 @@
+body{
+    background-color: #000000;
+}
+.cabecalho{
+    position: relative;
+    background-color: #111;
+}
+h1{
+    text-align: center;
+    font-size: 6rem;
+    color: #1DBF39;
+    font-family: 'Verdana';
+    font-weight: 800;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+.container2{
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-left: 5%;
+    margin-right: 3rem;
+    padding-top: 25%;
+    padding-bottom: 30%;
+    
+}
+
+
+
+h2{
+    font-size: 1rem;
+}
+
+.card{
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 3rem;
+}
+
+.container2{
+    position: relative;
+}
+
+.container2 .card{
+    position: relative;
+    width: 100%;
+    height: 30rem;
+    background: #232323;
+    border-radius: 4%;
+    overflow: hidden;
+}
+
+.container2 .card:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1DBF39;
+    clip-path: circle(7rem at 80% 20%);
+    transition: 0.5s ease-in-out;
+}
+
+.container2 .card:hover:before{
+    clip-path: circle(300px at 80% -20%);
+}
+
+
+.container2 .card:after{
+    content: 'Luva';
+    position: absolute;
+    top: 30%;
+    left: -20%;
+    font-size: 12em;
+    font-weight: 800;
+    font-style: italic;
+    color: rgb(255, 255, 255, 0.04);
+}
+
+.container2 .card .imgBx{
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    z-index: 10000;
+    width: 100%;
+    height: 50%;
+    transition: 0.5s;
+}
+
+
+.container2 .card:hover .imgBx{
+    top: 0%;
+    transform: translateY(0%);
+}
+
+
+.container2 .card .imgBx img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 15rem;
+}
+
+.container2 .card .contentBx{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    transition: 1s;
+    z-index: 10;
+}
+
+.container2 .card:hover .contentBx{
+    height: 30%;
+}
+
+.container2 .card .contentBx h2{
+    position: relative;
+    padding-bottom: 2%;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.container2 .card .contentBx .size,
+.container2 .card .contentBx .color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 20%;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+.container2 .card:hover .contentBx .size{
+   
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.5s;
+}
+.container2 .card:hover .contentBx .color{
+   
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.6s;
+}
+
+.container2 .card .contentBx .size h3,
+.container2 .card .contentBx .color h3{ 
+    color: #fff;
+    font-weight: 300;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 1%;
+}
+
+
+.container2 .card .contentBx .size span{
+    width: 4rem;
+    height: 1.7rem;
+    text-align: center;
+    line-height: 1.7rem;
+    font-size: 0.80rem;
+    font-weight: 700;
+    display: inline-block;
+    color: #111;
+    background:#fff;
+    margin: 0 0.5rem;
+    transition: 0.5s;
+    color: #111;
+    border-radius: 0.35rem;
+    cursor: pointer;
+}
+
+.container2 .card .contentBx .size span:hover{
+    background: #1DBF39;
+}
+
+
+.container2 .card .contentBx .color span{
+    width: 1.5rem;
+    height: 1.5rem;
+    background: #ff0;
+    border-radius: 50%;
+    margin: 0 0.3rem;
+    cursor: pointer;
+}
+
+.container2 .card .contentBx .color span:nth-child(2){
+    background: #f8c217;
+}
+.container2 .card .contentBx .color span:nth-child(3){
+    background: #03a9f4;
+}
+.container2 .card .contentBx .color span:nth-child(4){
+    background: #e91e63;
+}
+
+.container2 .card .contentBx a{
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    background: #FFFFFF;
+    border-radius: 0.3rem;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: #111;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: 0.5s;
+}
+
+
+.container2 .card:hover .contentBx a{
+    opacity: 1;
+    transform: translateY(0px);
+    transition-delay: 0.75s;
+}
+
+
+
+@media screen and (min-width: 1024px){
+    .container2{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding-left: 5%;
+       padding-top: 0;
+       
+        
+    }
+    .card{
+        margin-left: 6%;
+        margin-right: 6%;
+   
+    }
+
+    img{
+        position: absolute;
+    }
+}
