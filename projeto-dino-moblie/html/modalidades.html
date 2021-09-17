@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <title>Modalidades</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/base.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/cabecalho.css">  
     <link rel="stylesheet" href="../css/modalidades.css">
     
@@ -31,42 +33,139 @@
         
 
     <section class="modalidades container">
-        <h2 class="modalidades__titulo">Modalidades</h2>
-        <ul class="modalidades__cartoes">
-            <li class="cartao cartao">
-                <a href="#">
-                <article class="cartao__conteudo">
-                    <p class="cartao__nome--1">BJJ</p>
-                   
-                </article></a>
-            </li>
-            <li class="cartao cartao">
-                <a href="#">
-                <article class="cartao__conteudo">
-                    <p class="cartao__nome--2">MUAY</p>
+        <h2 class="modalidades__titulo">Modalidades</h2> 
+    </section>
 
-                </article>
-                </a>
-            </li>
-            <li class="cartao cartao">
-                <a href="#">
-                <article class="cartao__conteudo">
-                <p class="cartao__nome">MMA</p>
-               
-                </article>
-                </a>
-            </li>
-            <li class="cartao cartao">
-                <a href="#">
-                <article class="cartao__conteudo">
-                <p class="cartao__nome">BOXE</p>
-               
-                </article>
-               </a>
-            </li>
-        </ul>
+    <section class="artes__jiu">
+        <h3>Jiu-Jitsu brasileiro</h3>
+        <p>O Jiu-Jitsu brasileiro ou, lá fora, o Brazilian Jiu-Jitsu 
+            ou BJJ (grafado também como jujitsu ou jujutsu) é uma arte 
+            marcial de raiz japonesa que se utiliza essencialmente de golpes 
+            de alavancas, torções e pressões para levar um oponente ao chão e
+             dominá-lo. Literalmente, jū em japonês significa “suavidade”, “brandura”,
+              e jutsu, “arte”, “técnica”. Daí seu sinônimo literal, “arte suave”.
+
+            Sua origem secular, como sucede com quase todas as artes marciais ancestrais,
+             não pode ser apontada com precisão. Estilos de luta parecidos foram verificados 
+             em diversos povos, da Índia à China, nos séculos III e VIII. O que se sabe é que 
+             seu ambiente de desenvolvimento e refinamento foram as escolas de samurais, a casta 
+             guerreira do Japão feudal.
+            
+        </p>
+      <!----------carrossel---------->
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../imagens/artes__1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../imagens/artes__2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../imagens/artes__3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../imagens/artes__4.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="artes__thai">
+        <h3>Muay Thai</h3>
+        <p>Arte marcial tailandesa milenar, o muay thai tem aulas 
+            e treinamentos voltados não só para o público masculino, 
+            mas também para o feminino e o infantil, e sua procura só
+             cresce nas academias brasileiras. Não é para menos: o boxe 
+             tailandês oferece inúmeros benefícios para corpo e mente. 
+             Nada como espantar o estresse do dia a dia calçando as luvas e 
+             desferindo uma série de socos, chutes e caneladas. Mas a luta, 
+             que guarda semelhanças com o kickboxing, é muito mais do que uma sucessão de golpes. 
+             O muay thai exige disciplina e postura, trabalha autocontrole, melhora condicionamento 
+             físico e promove ganho de massa muscular. Não para por aí. Treino de muay thai 
+             emagrece: estima-se que em uma hora de aula perde-se de 600 a 900 calorias, podendo 
+             passar de mil, dependendo da intensidade do treinamento e da resistência, idade e b
+             iotipo do praticante.</p>
+          <!----------CARROSSEL---------->
+          <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../imagens/thai__1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagens/thai__2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagens/thai__3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagens/thai__4.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    <section class="artes__boxe">
+        <h3>Boxe</h3>
+
+        <p>Boxe ou pugilismo é um esporte de combate no qual os 
+            lutadores calçam luvas acolchoadas e utilizam as mãos 
+            para atacar e defender.
+
+            O objetivo no boxe é desferir golpes para 
+            pontuar ou nocautear o oponente, seguindo 
+            um conjunto de regras predeterminadas. As 
+            lutas acontecem em um ringue de boxe, um tablado 
+            amortecido cercado de cordas que delimitam a área 
+            do combate.
+            
+            A luta de boxe termina quando o tempo total se 
+            esgota ou quando um dos lutadores fica impossibilitado 
+            de continuar o combate.           
+            </p>
+
+      <!----------CARROSSEL---------->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../imagens/boxe__1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../imagens/boxe__2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../imagens/boxe__3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../imagens/boxe__4.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </section>
     </main>
     <script src="../js/menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>

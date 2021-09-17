@@ -1,0 +1,184 @@
+
+.modalidades {
+    background:url(../imagens/silhueta.jpg);
+    background-size: cover;
+    padding-top: 12rem;
+    padding-bottom: 3rem;
+}
+
+.modalidades__titulo {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: 'verdana';
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-bottom: 1.30rem;
+    padding-bottom: 1rem;
+}
+
+.modalidades__cartoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cartao {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #1DBF39;
+
+    width: 100%;
+    max-width: 300px;
+
+    margin-bottom: 2rem;
+
+    border-radius: 5px;
+    box-shadow: 0 2px 10px 2px #333333;
+}
+
+
+
+.cartao__conteudo {
+    padding: 0 15%;
+}
+.cartao__nome--1{
+    font-family: 'Verdana';
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #000000;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.cartao__nome--2{
+    font-family: 'Verdana';
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #000000;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+.cartao__nome{
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #000000;
+
+
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .modalidades{
+        background: url(../imagens/corda_preta.jpg);
+        background-size: cover;
+    }
+
+    .modalidades__titulo{
+        font-size: 5rem;
+        color: #FFFFFF;
+        padding-bottom: 5%;
+    }
+    .modalidades__cartoes {  
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+
+       
+        
+       
+    }
+
+    .cartao {
+        max-width: 300px;
+        background-color: #1DBF39;
+
+        box-shadow: none;
+        transition: all   .4s;
+
+        margin-left: 5%;
+
+
+        border-radius: 0;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+
+
+
+    }
+
+    .cartao__nome--1{
+        font-family: 'Verdana';
+        font-weight: 700;
+        font-size: 1.5rem;
+        text-align: center;
+        
+       padding-top: 2rem;
+       padding-bottom: 2rem;
+
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .cartao__nome--2{
+        font-family: 'Verdana';
+        font-weight: 700;
+        font-size: 1.4rem;
+        text-align: center;
+    
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+    }
+    .cartao__nome{
+        font-weight: 700;
+        font-size: 1.5rem;
+        text-align: center;
+    
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    
+    
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+    }
+    .cartao:hover{
+        transform: scale(1.05);
+        background-color: #1DBF39;
+
+        color: #FFFFFF;
+    }
+
+    
+
+    .cartao__texto{
+        color: #000000 ;
+        
+    }
+
+    
+
+
+   
+}
