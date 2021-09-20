@@ -40,7 +40,7 @@
     font-weight: 600;
     font-size: 3rem;
     letter-spacing: 5px;
-    color: #DDDDDD;
+    color: #FFFFFF;
    
 }
 
@@ -136,6 +136,14 @@
 
 
 @media screen and (min-width: 1024px) {
+   
+    p{
+       
+        padding-left: 25%;
+        padding-right: 25%;
+    
+     }
+  
 
     .modalidades{
         background: #FFFFFF;
@@ -162,7 +170,7 @@
         font-weight: 600;
         font-size: 3rem;
         letter-spacing: 5px;
-        color: #DDDDDD;
+        color: #FFFFFF;
        
     }
     

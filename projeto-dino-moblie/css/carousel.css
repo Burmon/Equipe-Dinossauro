@@ -105,6 +105,12 @@
 }
 
 @media (max-width: 600px){
+    .carousel {
+        position: relative;
+        height: 15rem;
+        width: 100%;
+        overflow: hidden;
+    }
     .carousel__imagem{
         width: 100%;
     
@@ -117,7 +123,7 @@
         width: 2rem;
         height: 2rem;
     
-        top: 20%;
+        top: 40%;
     
         transform: translateY(-50%);
     
