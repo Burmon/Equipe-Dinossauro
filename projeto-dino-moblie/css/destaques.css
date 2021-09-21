@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200;300;400;500;600;700;800&family=Teko:wght@300;400;500;600;700&display=swap');
 .destaques{
     background-color: #1DBF39;
     padding-bottom: 4rem;
@@ -7,7 +8,7 @@
     color: #FFFFFF;
     font-weight: 700;
     font-size: 4rem;
-    font-family: 'verdana';
+    font-family: 'Stick No Bills', sans-serif;
     text-transform: uppercase;
     text-align: center;
 
@@ -20,9 +21,9 @@
    
     .destaques__titulo{
         color: #FFFFFF;
-        font-weight: 700;
-        font-size: 2rem;
-        font-family: 'verdana';
+        font-weight: 800;
+        font-size: 4rem;
+        font-family: 'Stick No Bills', sans-serif;
         text-transform: uppercase;
         text-align: center;
     

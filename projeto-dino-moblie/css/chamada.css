@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200;300;400;500;600;700;800&family=Teko:wght@300;400;500;600;700&display=swap');
 .chamada  {
     display: flex;
     flex-direction: column;
@@ -14,16 +15,19 @@
 
 .chamada__titulo {
     color: #1DBF39;
-    font-family: 'verdana';
-    font-size: 4rem;
-    font-weight: 700;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 6rem;
+    font-weight: 800;
     text-transform: uppercase;
     margin-top: 10%;
     margin-bottom: 1.5rem;
 }
 
 .chamada__texto {
-    font-size: 1.25rem;
+    font-family: 'Teko', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 2px;
     line-height: normal;
     margin: 0 auto 2.5rem;
     text-shadow: 1px 1px #000000 ;
@@ -33,7 +37,8 @@
     width: 100%;
     color: #FFFFFF;
     border-color: #FFFFFF;
-   
+    font-family: 'Teko', sans-serif;
+    font-size: 2rem;
     
     
 }
@@ -46,9 +51,7 @@
         background-attachment: fixed;
         
     }
-    .chamada__texto{
-        max-width: 600px;
-    }
+   
 }
 
 

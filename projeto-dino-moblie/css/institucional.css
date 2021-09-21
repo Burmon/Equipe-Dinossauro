@@ -17,19 +17,24 @@
 .institucional__titulo {
     color: #1DBF39;
     font-weight: 700;
-    font-size: 1.5rem;
-    font-family: 'Verdana';
+    font-size: 3rem;
+    font-family: 'Stick No Bills', sans-serif;
     text-transform: uppercase;
     text-align: center;
 
-    margin-bottom: 2rem;
+    
 }
 
 .institucional__descricao {
+    font-family: 'Teko', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
     margin-bottom: 2rem;
 }
 
 .institucional__endereco {
+    font-family: 'Stick No Bills', sans-serif;
+    font-weight: 800;
     font-size: 1.5rem;
     line-height: normal;
 
@@ -37,6 +42,8 @@
 }
 
 .institucional__contato {
+    font-family: 'Stick No Bills', sans-serif;
+    font-weight: 300;
     font-size: 1.2rem;
     line-height: 1.8;
 
@@ -58,9 +65,19 @@
 }
 
 @media screen and (min-width: 1024px) {
+
+
     .institucional__titulo{
+        color: #1DBF39;
+        font-weight: 700;
         font-size: 3rem;
+        font-family: 'Stick No Bills', sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 2rem;
     }
+
+
     .institucional__conteudo {
         width: 100%;
 

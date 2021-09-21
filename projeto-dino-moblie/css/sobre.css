@@ -6,9 +6,9 @@
 
 .sobre__titulo {
     color: #FFFFFF;
-    font-weight: 700;
-    font-size: 1.5rem;
-    font-family: 'verdana';
+    font-weight: 800;
+    font-size: 4rem;
+    font-family: 'Stick No Bills', sans-serif;
     text-transform: uppercase;
     text-align: center;
 
@@ -20,12 +20,17 @@
     color: #FFFFFF;
     margin-bottom: 1rem;
     margin-left: auto;
+
+    font-family: 'Teko', sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
     
 }
 
 .sobre__texto--destaque {
+    font-family: 'Stick No Bills', sans-serif;
     color: #1DBF39;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .sobre__plataformas {

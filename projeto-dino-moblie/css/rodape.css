@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
 
-    background-color: #363335;
+    background-color: #1DBF39;
 
     padding-top: 2.5rem;
     padding-bottom: 2rem;
@@ -11,7 +11,9 @@
 
 .rodape__social {
     display: flex;
+   
 }
+
 .rodape__logo {
     margin-bottom: 1rem;
     width: 10rem;
@@ -26,8 +28,10 @@
 }
 
 .rodape__navegacao {
-    color: #1DBF39;
+    font-family: 'Teko', sans-serif;
+    color: #000000;
     text-align: center;
+    font-size: 1.5rem;
     line-height: 3;
 }
 

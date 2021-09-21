@@ -1,20 +1,22 @@
 .planos {
-    background-color: #1DBF39;
-    
+    background: url(../imagens/silhueta.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+   
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
 .planos__titulo {
-    color: #000000;
-    font-weight: 700;
-    font-size: 1.5rem;
-    font-family: 'verdana';
+    color: #1DBF39;
+    font-weight: 800;
+    font-size: 4rem;
+    font-family: 'Stick No Bills', sans-serif;
     text-transform: uppercase;
     text-align: center;
 
     margin-bottom: 1.30rem;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
 }
 
 .planos__cartoes {
@@ -27,7 +29,8 @@
     display: flex;
     flex-direction: column;
 
-    background-color: #1DBF39;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
 
     width: 100%;
     max-width: 300px;
@@ -39,9 +42,11 @@
 }
 
 .cartao__titulo {
-    font-weight: 700;
-    font-size: 1.5rem;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
     text-align: center;
+    color: #FFFFFF;
 
     padding: .75rem 0;
 
@@ -56,8 +61,11 @@
 }
 
 .cartao__preco {
-    font-weight: 700;
+    font-family: 'Teko', sans-serif;
+    font-weight: 400;
     font-size: 3rem;
+    letter-spacing: 2px;
+    color: #FFFFFF;
     text-align: center;
 
     margin-top: 1.25rem;
@@ -65,7 +73,12 @@
 }
 
 .cartao__texto {
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
     color: #FFFFFF;
+    font-size: 1.5rem;
+    letter-spacing: 2px ;
+
     text-align: center;
     line-height: 28px;
 }
@@ -75,8 +88,12 @@
     border: 1px solid #FFFFFF;
     background-color: #FFFFFF;
 
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
     font-size: 1.2rem;
     font-weight: 300;
+    letter-spacing: 2px;
+    word-spacing: 5px;
     color: #000000;
 
 
@@ -97,10 +114,11 @@
 
     .planos{
         background: url(../imagens/jiu_preto.jpg);
+        background-attachment: fixed;
     }
 
     .planos__titulo{
-        font-size: 3rem;
+        font-size: 4rem;
         color: #1DBF39;
     }
     .planos__cartoes {  
@@ -117,6 +135,10 @@
         transition: all   .4s;
 
     }
+
+    
+
+
 
     .cartao:hover{
         transform: scale(1.05);

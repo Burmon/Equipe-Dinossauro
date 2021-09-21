@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200;300;400;500;600;700;800&family=Teko:wght@300;400;500;600;700&display=swap');
 body,
 ul {
   margin: 0px;
@@ -6,28 +6,15 @@ ul {
 
 }
 
-a {
-  color: #1DBF39;
-  text-decoration: none;
-  font-family: 'Verdana';
-  transition : all .4s;
-  font-size: 1rem;
-}
 
-a:hover {
-  background: #1DBF39;
-  color: #FFFFFF;
-}
 
-#logo {
 
-    width: 6rem;
-}
+
 
 
 #header {
   box-sizing: border-box;
-  height: 57px;
+  height: 3.5rem;
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -35,15 +22,41 @@ a:hover {
   
 }
 
+
+
+
 #menu {
   display: flex;
   list-style: none;
-  gap: 0.5rem;
 }
 
+
+
 #menu a {
+
+  text-transform: uppercase;
+
   display: block;
+
   padding: 1rem;
+
+  color: #1DBF39;
+
+  text-decoration: none;
+
+  font-family: 'Teko', sans-serif;
+
+  transition : all .4s;
+
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+
+
+#menu a:hover {
+  background: #1DBF39;
+  color: #FFFFFF;
 }
 
 #btn-mobile {
