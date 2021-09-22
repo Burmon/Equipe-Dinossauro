@@ -6,9 +6,10 @@
 
 .sobre__titulo {
     color: #FFFFFF;
-    font-weight: 800;
-    font-size: 4rem;
-    font-family: 'Stick No Bills', sans-serif;
+    font-weight: 300;
+    font-size: 5rem;
+    letter-spacing: 5px;
+    font-family: "Teko";
     text-transform: uppercase;
     text-align: center;
 
@@ -77,6 +78,7 @@
 
 
     .sobre__titulo{
+        font-family: "Teko";
         font-size: 3rem;
         text-align: left;
     }

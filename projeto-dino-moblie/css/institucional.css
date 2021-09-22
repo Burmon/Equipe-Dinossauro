@@ -16,9 +16,10 @@
 
 .institucional__titulo {
     color: #1DBF39;
-    font-weight: 700;
-    font-size: 3rem;
-    font-family: 'Stick No Bills', sans-serif;
+    font-weight: 300;
+    font-size: 5rem;
+    letter-spacing: 2px;
+    font-family: "Teko";
     text-transform: uppercase;
     text-align: center;
 
@@ -27,6 +28,8 @@
 
 .institucional__descricao {
     font-family: 'Teko', sans-serif;
+    color: #FFFFFF;
+    font-weight: 300;
     font-size: 1.2rem;
     letter-spacing: 2px;
     margin-bottom: 2rem;
@@ -34,7 +37,7 @@
 
 .institucional__endereco {
     font-family: 'Stick No Bills', sans-serif;
-    font-weight: 800;
+    font-weight: 400;
     font-size: 1.5rem;
     line-height: normal;
 

@@ -18,7 +18,7 @@ ul {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  background: #303030;
+  background: #000000;
   
 }
 
@@ -46,16 +46,16 @@ ul {
 
   font-family: 'Teko', sans-serif;
 
-  transition : all .4s;
+  transition : all .3s;
 
   font-size: 1.5rem;
-  letter-spacing: 2px;
+  letter-spacing: 5px;
 }
 
 
 
 #menu a:hover {
-  background: #1DBF39;
+  
   color: #FFFFFF;
 }
 
@@ -71,7 +71,7 @@ ul {
     width: 100%;
     top: 50px;
     right: 0px;
-    background: #303030;
+    background: #000000;
     border-bottom: 3px solid #1DBF39;
     transition: 0.6s;
     z-index: 1000;
@@ -114,6 +114,7 @@ ul {
     margin-top: 5px;
     transition: 0.3s;
     position: relative;
+    color: #1DBF39;
   }
   #nav.active #hamburger {
     border-top-color: transparent;

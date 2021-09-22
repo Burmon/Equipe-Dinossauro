@@ -13,9 +13,10 @@
 
 .contato__titulo {
     color: #000000;
-    font-weight: 700;
-    font-size: 4rem;
-    font-family: 'Stick No Bills', sans-serif;
+    font-weight: 300;
+    font-size: 5rem;
+    letter-spacing: 5px;
+    font-family: "Teko";
     text-transform: uppercase;
     text-align: center;
 
@@ -50,7 +51,8 @@
 form label{
 	display: block;
 	font-family: 'Teko', sans-serif;
-	font-weight: 400;
+	font-weight: 300;
+    letter-spacing: 2px;
 	font-size: 1.5rem;
 	color:  #1DBF39;
 
@@ -77,11 +79,11 @@ form label{
 
     font-family: 'Teko', sans-serif;
     font-size: 2rem;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
+    font-weight: 300;
+    color: #FFFFFF;
 
-    color: #1DBF39;
-
-    border-color: #1DBF39;
+    background-color: #1DBF39;
 
     width: 100%;
 

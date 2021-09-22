@@ -3,8 +3,10 @@
     text-transform: uppercase;
 }
 .modalidades {
-    background:url(../imagens/silhueta_2.jpg);
-    background-size: cover;
+    background:url(../imagens/sombra_saco.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     padding-top: 12rem;
     padding-bottom: 5rem;
 
@@ -12,12 +14,12 @@
 
 .modalidades__titulo {
     color: #FFFFFF;
-    font-weight: 700;
-    font-size: 3.5rem;
+    font-weight: 300;
+    font-size: 5rem;
     letter-spacing: 5px;
     text-transform: uppercase;
     text-align: center;
-    font-family: 'Stick No Bills', sans-serif;
+    font-family: "Teko";
 
 
     margin-bottom: 1.30rem;
@@ -31,12 +33,12 @@
 }
 
 .artes__jiu h3{
-    font-family: 'Stick No Bills', sans-serif;
+    font-family: "Teko";
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    font-weight: 600;
-    font-size: 3rem;
+    font-weight: 300;
+    font-size: 4rem;
     letter-spacing: 5px;
     color: #FFFFFF;
    
@@ -44,7 +46,7 @@
 
 .artes__jiu p{
     font-family: 'Teko', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1.5rem;
     text-align: center;
     letter-spacing: 1px;
@@ -62,12 +64,12 @@
 }
 
 .artes__thai h3{
-    font-family: 'Stick No Bills', sans-serif;
+    font-family: "Teko";
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    font-weight: 600;
-    font-size: 3rem;
+    font-weight: 300;
+    font-size: 4rem;
     letter-spacing: 5px;
     color: #1DBF39;
    
@@ -75,7 +77,7 @@
 
 .artes__thai p{
     font-family: 'Teko', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1.5rem;
     text-align: center;
     letter-spacing: 1px;
@@ -94,19 +96,19 @@
 }
 
 .artes__boxe h3{
-    font-family: 'Stick No Bills', sans-serif;
+    font-family: "Teko";
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    font-weight: 600;
-    font-size: 3rem;
+    font-weight: 300;
+    font-size: 4rem;
     letter-spacing: 5px;
    
 }
 
 .artes__boxe p{
     font-family: 'Teko', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1.5rem;
     text-align: center;
     letter-spacing: 1px;
@@ -155,8 +157,11 @@
     }
 
     .modalidades__titulo{
-        font-size: 6rem;
-        color: #1DBF39;
+        font-family: "Teko";
+        font-size: 10rem;
+        font-weight: 400;
+        letter-spacing: 2rem;
+        color: #000000;
         padding-bottom: 5%;
     }
     /*-------------------------JIU JITSU-------------------*/
@@ -168,17 +173,18 @@
     
     .artes__jiu h3{
         text-align: center;
+        font-family: "Teko";
         margin-top: 2rem;
         margin-bottom: 2rem;
-        font-weight: 600;
+        font-weight: 300;
         font-size: 3rem;
-        letter-spacing: 5px;
+        letter-spacing: 10px;
         color: #FFFFFF;
        
     }
     
     .artes__jiu p{
-        font-weight: 400;
+        font-weight: 300;
         font-size: 1.5rem;
         text-align: center;
         letter-spacing: 1px;
@@ -198,17 +204,18 @@
     
     .artes__thai h3{
         text-align: center;
+        font-family: "Teko";
         margin-top: 2rem;
         margin-bottom: 2rem;
-        font-weight: 600;
+        font-weight: 300;
         font-size: 3rem;
-        letter-spacing: 5px;
+        letter-spacing: 10px;
         color: #1DBF39;
        
     }
     
     .artes__thai p{
-        font-weight: 400;
+        font-weight: 300;
         font-size: 1.5rem;
         text-align: center;
         letter-spacing: 1px;
@@ -228,16 +235,17 @@
     
     .artes__boxe h3{
         text-align: center;
+        font-family: "Teko";
         margin-top: 2rem;
         margin-bottom: 2rem;
-        font-weight: 600;
+        font-weight: 300;
         font-size: 3rem;
-        letter-spacing: 5px;
+        letter-spacing: 10px;
        
     }
     
     .artes__boxe p{
-        font-weight: 400;
+        font-weight: 300;
         font-size: 1.5rem;
         text-align: center;
         letter-spacing: 1px;
