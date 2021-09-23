@@ -116,7 +116,8 @@
 @media screen and (min-width: 1024px) {
 
     .planos{
-        background: url(../imagens/jiu_preto.jpg);
+        background: url(../imagens/sombra_saco_2.jpg);
+        background-size: cover;
         background-attachment: fixed;
     }
 

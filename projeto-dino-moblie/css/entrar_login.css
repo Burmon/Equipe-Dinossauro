@@ -13,16 +13,18 @@ main{
     width: 350px;
     box-sizing: border-box;
     padding: 40px;
-    background: #FFFFFF;
+  
 }
 
 .login h2{
     margin: 0 0 20px;
     padding: 0;
-    font-size: 4rem;
-    font-family: 'Stick No Bills', sans-serif;
+    font-size: 6rem;
+    font-family: "Teko";
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 300;
+    letter-spacing: 5px;
+    color: #1DBF39;
 }
 
 .login .input_group{
@@ -101,6 +103,6 @@ section a{
 }
 
 section a:hover{
-    color: #000000;
+    color: #FFFFFF;
 }
 

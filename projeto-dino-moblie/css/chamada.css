@@ -13,6 +13,12 @@
     padding-bottom: 2.5rem;
 }
 
+.chamada img{
+width: 0;
+   visibility: hidden;
+   
+}
+
 .chamada__titulo {
     color: #1DBF39;
     font-family: "Teko";
@@ -70,9 +76,16 @@
         padding-bottom: 15%;
     }
 
+    .chamada img{
+        visibility: visible;
+        width: 50%;
+    }
+
+
     .chamada__titulo{
 
-        font-size: 5rem;
+        font-size: 7rem;
+        letter-spacing: 10px;
         margin-bottom: 2rem;
     }
 

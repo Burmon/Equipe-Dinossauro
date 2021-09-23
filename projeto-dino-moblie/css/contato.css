@@ -97,19 +97,19 @@ form label{
     
     .contato__titulo {
         color: #000000;
-        font-weight: 800;
-        font-size: 4rem;
-        font-family: 'Stick No Bills', sans-serif;
+        font-weight: 300;
+        font-size: 5rem;
+        font-family: "Teko";
         text-transform: uppercase;
         text-align: center;
     
-        margin-bottom: 2rem;
+        margin-bottom: 4rem;
     }
 
     form label{
         display: block;
         font-family: "Teko";
-        font-weight: 400;
+        font-weight: 300;
         font-size: 2rem;
         color:  #1DBF39;
         margin-bottom: 1rem;
@@ -119,13 +119,18 @@ form label{
     #seu_nome, #seu_email{
         position: relative;
         padding-right: 21rem;
-        padding-left: .5rem;
+      
      }
 
     #sua_mensagem{
         margin-right: 2rem;
-        padding-left: 1rem;
+       
         padding-right: 16rem;
+     }
+     .contato__botao{
+         background-color: #FFFFFF;
+         color: #1DBF39;
+         transition: all .4s;
      }
      .contato__botao:hover{
         color: #FFFFFF;
